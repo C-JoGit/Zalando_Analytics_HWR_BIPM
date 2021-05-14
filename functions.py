@@ -11,9 +11,15 @@ import pickle
 import spacy # import en_core_web_sm 
 import nltk
 nltk.download('stopwords')
+
 import os
 
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.preprocessing import Binarizer
 from gensim.corpora import Dictionary
 from gensim.models import TfidfModel
+from nltk.tokenize import word_tokenize
+
+nltk.download('punkt')
+import demoji
+demoji.download_codes()
