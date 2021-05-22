@@ -23,3 +23,11 @@ from nltk.tokenize import word_tokenize
 nltk.download('punkt')
 import demoji
 demoji.download_codes()
+
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+
+from gensim.test.utils import common_texts
+from gensim.models.doc2vec import Doc2Vec, TaggedDocument
+
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from scipy.spatial.distance import cosine
