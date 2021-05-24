@@ -11,6 +11,7 @@ import pickle
 import spacy # import en_core_web_sm 
 import nltk
 nltk.download('stopwords')
+nltk.download('vader_lexicon')
 
 import os
 
@@ -31,3 +32,10 @@ from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from scipy.spatial.distance import cosine
+
+
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import classification_report
+
+import numpy as np
