@@ -5,6 +5,7 @@ Use conda install (instead of pip install) on your command/terminal prompt to in
 For older python version, import en_core_web_sm works, for newer version - import spacy instead also install this on terminal/command prompt 'python -m spacy download en_core_web_sm' to enable this code
 '''
 import pandas as pd
+import numpy as np
 import re
 from gensim.parsing.preprocessing import STOPWORDS, strip_tags, strip_numeric, strip_punctuation, strip_multiple_whitespaces, remove_stopwords, strip_short, stem_text
 import pickle
@@ -34,10 +35,7 @@ from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from scipy.spatial.distance import cosine
 
 
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.model_selection import GridSearchCV
-
-import numpy as np
