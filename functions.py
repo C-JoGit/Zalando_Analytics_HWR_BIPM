@@ -152,8 +152,8 @@ def lemmatize(tweet):
     return tweet
 
 #load Doc2Vec models created and trained in the notebook 3.representation_eng
-eng_doc2vec5 = Doc2Vec.load('eng_doc2vec5.model') #gives embedding size 5
-eng_doc2vec100 = Doc2Vec.load('eng_doc2vec100.model') #gives embedding size 100
+eng_doc2vec5 = Doc2Vec.load('data_n_models/eng_doc2vec5.model') #gives embedding size 5
+eng_doc2vec100 = Doc2Vec.load('data_n_models/eng_doc2vec100.model') #gives embedding size 100
 
 def get_vector5(tweet):
     """
