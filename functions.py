@@ -6,6 +6,7 @@ For older python version, import en_core_web_sm works, for newer version - impor
 '''
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 import re
 from gensim.parsing.preprocessing import STOPWORDS, strip_tags, strip_numeric, strip_punctuation, strip_multiple_whitespaces, remove_stopwords, strip_short, stem_text
 import pickle
@@ -43,6 +44,9 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import make_classification
 import matplotlib.pyplot as plt
+
+from wordcloud import WordCloud, STOPWORDS
+from PIL import Image
 
 def clean_complete(tweet):
     """
@@ -175,3 +179,20 @@ def get_vector100(tweet):
     #create a DataFrame with a tweet and a vector for each tweet
     corpus_d2v100=pd.DataFrame([eng_doc2vec100.infer_vector(doc) for doc in tweet])
     return corpus_d2v100
+
+def classify_bots(df):
+    #collect all the account names related to bots and scripts
+    names = []
+    pat = r'(bot\s|script|bot_)'
+    for name in data.name.unique():
+        match = re.findall(pat, name, re.IGNORECASE) 
+        if len(match) > 0:
+            names.append(name)
+    #look for a key words to identify a tweet related to bots and scripts
+    pattern = r"(script|bot\s|bots\s|bot_|cook|cop^e)"
+    df['bot'] = False
+    for i, row in df.iterrows():
+        match = re.findall(pattern, row.tweet, re.IGNORECASE) 
+        if len(match) > 0 or row.isin(names)['name'] == True:
+            df['bot'].loc[i] = True
+    return df 
