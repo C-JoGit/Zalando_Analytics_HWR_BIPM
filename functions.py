@@ -25,15 +25,14 @@ from gensim.models import TfidfModel
 from nltk.tokenize import word_tokenize
 
 nltk.download('punkt')
-import demoji
-demoji.download_codes()
+#import demoji
+#demoji.download_codes()
 
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 from gensim.test.utils import common_texts
-from gensim.models.doc2vec import Doc2Vec, TaggedDocument
+#from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from scipy.spatial.distance import cosine
 
 
@@ -73,6 +72,9 @@ def clean_complete(tweet):
     tweet = tweet.str.replace('&amp', '')
     tweet = tweet.str.replace('\n', '')
     tweet = tweet.str.replace('"', '')
+    tweet = tweet.str.replace('ℐℓ٥ﻻﻉ√٥υ', '')
+    tweet = tweet.str.replace(r'£|\u200d|—', '')
+    
     #to lower case
     tweet = tweet.str.lower()
 
@@ -83,7 +85,10 @@ def clean_complete(tweet):
     tweet = [strip_numeric(c) for c in tweet]
 
     #replacing emojies with descriptions '❤️-> red heart'
-    tweet = [demoji.replace_with_desc(c, ' ') for c in tweet]
+    #tweet = [demoji.replace_with_desc(c, ' ') for c in tweet]
+
+    #replacing emojies with ''
+    tweet = [demoji.replace(c, ' ') for c in tweet]
 
     #delete punctuation
     tweet = [strip_punctuation(c) for c in tweet]
@@ -121,6 +126,7 @@ def clean_vader(tweet):
     tweet = tweet.str.replace('&amp', '')
     tweet = tweet.str.replace('\n', '')
 
+
     #to lower case
     #tweet = tweet.str.lower()
 
@@ -146,6 +152,7 @@ def clean_vader(tweet):
     tweet = [strip_multiple_whitespaces(c) for c in tweet]
     return tweet
 
+
 def lemmatize(tweet):
     '''
     tweet: pandas series
@@ -158,8 +165,8 @@ def lemmatize(tweet):
     return tweet
 
 #load Doc2Vec models created and trained in the notebook 3.representation_eng
-eng_doc2vec5 = Doc2Vec.load('data_n_models/eng_doc2vec5.model') #gives embedding size 5
-eng_doc2vec100 = Doc2Vec.load('data_n_models/eng_doc2vec100.model') #gives embedding size 100
+#eng_doc2vec5 = Doc2Vec.load('data_n_models/eng_doc2vec5.model') #gives embedding size 5
+#eng_doc2vec100 = Doc2Vec.load('data_n_models/eng_doc2vec100.model') #gives embedding size 100
 
 def get_vector5(tweet):
     """
