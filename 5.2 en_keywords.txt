@@ -107,15 +107,15 @@ Search:
         cast around,
         rifle through,
         leave no stone unturned,
-        turn inside out,
-        fossick,
-        go over with a fine-tooth comb
+        turn inside out
 
 ]
 
 Recommendation:
     recommendation =[
-        recommendation
+        recommendation, 
+        commendation,
+        referral, 
         advice,
         proposal,
         suggestion,
@@ -168,6 +168,10 @@ Fulfillment (logistics):
     fulfilment= [
         fulfilment,
         coordination,
+        warehouse, 
+        stock, 
+        packaging,
+        logistic, 
         achievement,
         effecting,
         implementation,
@@ -188,12 +192,14 @@ Fulfillment (logistics):
 Sustainability:
     sustainability = [
         sustainability,
+        environmentally friendly, 
+        sustainable,
         environment,
         surroundings, 
         shelter, 
         defence, 
         nature, 
         climate change, 
-        climaate
+        climate
     ]
 

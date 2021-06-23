@@ -79,6 +79,12 @@ bill_pay = [
 
 Fulfillment (logistics):
 fulfilment= [
+    transport, 
+    lager, 
+    lagerung,
+    verkehr, 
+    verpackung, 
+    logistik, 
     einhaltung, 
     erfüllung, 
     beachtung
@@ -90,9 +96,12 @@ Sustainability:
     sustainability = [
         nachhaltigkeit, 
         umwelt, 
+        umweltfreundilich, 
+        zukunfsfähig,
         umgebung, 
         natur, 
         naturschutz, 
+        schutz, 
         klima, 
         klimawandel,
         nachhaltig
