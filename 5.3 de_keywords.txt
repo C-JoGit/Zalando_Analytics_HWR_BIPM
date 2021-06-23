@@ -1,0 +1,33 @@
+Catalog:
+    catalog= [
+  
+    ]
+
+Size & fit:
+size_fit = [
+
+
+]
+
+Recommendation:
+recommendation =[
+
+]
+
+Outfit:
+outfit = [
+
+]
+
+Billing and payment:
+bill_pay = [
+
+ ]
+
+Fulfillment (logistics):
+fulfilment= [
+
+
+]
+
+Sustainability:
