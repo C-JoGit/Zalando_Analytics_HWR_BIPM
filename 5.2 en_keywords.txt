@@ -1,0 +1,94 @@
+Catalog:
+
+Size & fit:
+
+Product detail page:
+
+Search:
+search = [
+    look, 
+    inquiry,
+    investigation,
+    examination,
+    pursuit,
+    quest,
+    going-over,
+    inspection,
+    exploration,
+    scrutiny,
+    rummage,
+    examine,
+    check,
+    investigate,
+    explore,
+    probe,
+    inspect,
+    comb,
+    inquire,
+    sift,
+    scour,
+    ferret,
+    pry,
+    ransack,
+    forage,
+    scrutinize,
+    turn upside down,
+    rummage through, 
+    cast around,
+    rifle through,
+    leave no stone unturned,
+    turn inside out,
+    fossick (Australian, New Zealand),
+    go over with a fine-tooth comb
+
+]
+
+Recommendation:
+recommendation =[
+    advice,
+    proposal,
+    suggestion,
+    counsel,
+    guidance,
+    exhortation,
+    urging
+]
+
+Outfit:
+outfit = [costume,
+    dress,
+    clothes,
+    clothing,
+    suit,
+    gear,
+    get-up,
+    kit,
+    ensemble,
+    apparel,
+    attire,
+    garb,
+    togs,
+    threads,
+    schmutter,
+    rigout]
+
+Billing and payment:
+bill_pay = [charges, 
+    rate,
+    costs,
+    score,
+    account,
+    damage,
+    statement,
+    reckoning,
+    expense,
+    tally,
+    invoice,
+    note of charge, 
+    banknote,
+    green-back,
+    note]
+
+Fulfillment (logistics):
+
+Sustainability:
