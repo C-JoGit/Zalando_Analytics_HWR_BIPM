@@ -171,4 +171,12 @@ Fulfillment (logistics):
     ]
 
 Sustainability:
+    sustainability = [
+        environment,
+        surroundings, 
+        shelter, 
+        defence, 
+        nature, 
+        climate change
+    ]
 
