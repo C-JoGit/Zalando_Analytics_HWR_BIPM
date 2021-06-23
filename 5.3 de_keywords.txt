@@ -1,0 +1,108 @@
+Catalog:
+    catalog= [
+        katalog,
+        warenkatalog,
+        übersicht, 
+        verzeichnis, 
+        stichwortverzeichnis
+    ]
+
+Size & fit:
+size_fit = [
+    small,
+    large,
+    medium,
+    schnitt, 
+    sitz, 
+    größe, 
+    modell, 
+    design, 
+    art,
+    style, 
+    form,
+    zuschnitt,
+    gestalt,
+    ausführung, 
+
+
+
+]
+
+Recommendation:
+recommendation =[
+    empfehlung, 
+    tipp, 
+    hilfe,
+    hilfestellung, 
+    beistand, 
+    lehre, 
+    hinweis, 
+    rat, 
+    ratschlag
+
+]
+
+Outfit:
+outfit = [
+    mode,
+    fashion,
+    aufzug, 
+    look,
+    lifestyle,
+    anzug, 
+    stil
+
+]
+
+Billing and payment:
+bill_pay = [
+    rechnung, 
+    zahlung,
+    ausgleich, 
+    schlussrechnung, 
+    kassenbeleg, 
+    quittung, 
+    kassenbon,
+    quittung, 
+    budget,
+    voranschlag, 
+    belastung, 
+    abrechnung, 
+    aufstellung, 
+    summe,
+    betrag, 
+    abgabe, 
+    auszahlung, 
+    gebühr, 
+    vorkasse
+ ]
+
+Fulfillment (logistics):
+fulfilment= [
+    transport, 
+    lager, 
+    lagerung,
+    verkehr, 
+    verpackung, 
+    logistik, 
+    einhaltung, 
+    erfüllung, 
+    beachtung
+
+
+]
+
+Sustainability:
+    sustainability = [
+        nachhaltigkeit, 
+        umwelt, 
+        umweltfreundilich, 
+        zukunfsfähig,
+        umgebung, 
+        natur, 
+        naturschutz, 
+        schutz, 
+        klima, 
+        klimawandel,
+        nachhaltig
+    ]
