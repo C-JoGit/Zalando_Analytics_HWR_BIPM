@@ -1,5 +1,6 @@
 Catalog:
     catalog= [
+        catalog,
         list,
         record,
         schedule,
@@ -11,6 +12,11 @@ Catalog:
 
 Size & fit:
     size_fit = [
+        size,
+        fit,
+        small, 
+        large, 
+        medium,
         dimensions,
         extent,
         measurement,
@@ -43,7 +49,8 @@ Size & fit:
 
 Product detail page:
     product_detail_page = [
-
+        product,
+        detail, 
         feature,
         particular,
         respect,
@@ -68,6 +75,7 @@ Product detail page:
 
 Search:
     search = [
+        search,
         look, 
         inquiry,
         investigation,
@@ -107,6 +115,7 @@ Search:
 
 Recommendation:
     recommendation =[
+        recommendation
         advice,
         proposal,
         suggestion,
@@ -118,6 +127,7 @@ Recommendation:
 
 Outfit:
     outfit = [
+        outfit,
         costume,
         dress,
         clothes,
@@ -133,7 +143,10 @@ Outfit:
         togs]
 
 Billing and payment:
-    bill_pay = [charges, 
+    bill_pay = [
+        bill, 
+        pay,
+        charges, 
         rate,
         costs,
         score,
@@ -152,6 +165,7 @@ Billing and payment:
 
 Fulfillment (logistics):
     fulfilment= [
+        fulfilment,
         coordination,
         achievement,
         effecting,
@@ -172,6 +186,7 @@ Fulfillment (logistics):
 
 Sustainability:
     sustainability = [
+        sustainability,
         environment,
         surroundings, 
         shelter, 

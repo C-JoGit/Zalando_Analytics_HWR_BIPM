@@ -1,27 +1,62 @@
 Catalog:
     catalog= [
-  
+        katalog,
+        warenkatalog,
+        übersicht, 
+        verzeichnis, 
+        stichwortverzeichnis
     ]
 
 Size & fit:
 size_fit = [
+    small,
+    large,
+    medium,
+    schnitt, 
+    sitz, 
+    größe, 
+    modell, 
+    design, 
+    art,
+    style, 
+    form,
+    zuschnitt,
+    gestalt,
+    ausführung, 
+
 
 
 ]
 
 Recommendation:
 recommendation =[
+    empfehlung, 
+    tipp, 
+    hilfe,
+    hilfestellung, 
+    beistand, 
+    lehre, 
+    hinweis, 
+    rat, 
+    ratschlag
 
 ]
 
 Outfit:
 outfit = [
+    mode,
+    fashion,
+    aufzug, 
+    look,
+    lifestyle,
+    anzug, 
+    stil
 
 ]
 
 Billing and payment:
 bill_pay = [
-
+    rechnung
  ]
 
 Fulfillment (logistics):
