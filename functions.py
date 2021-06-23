@@ -1,4 +1,4 @@
-'''
+    '''
 Instructions/Notes
 Various functions and libraries for the project are imported or defined in this file, to avoid a lot of information on the project file.
 Use conda install (instead of pip install) on your command/terminal prompt to install packages such as : conda install gensim, conda install spacy, conda install python-Levenshtein, conda install etc...
