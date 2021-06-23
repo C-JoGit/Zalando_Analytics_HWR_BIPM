@@ -160,7 +160,8 @@ Billing and payment:
         note of charge, 
         banknote,
         green-back,
-        note
+        note,
+        budget
     ]
 
 Fulfillment (logistics):
@@ -192,6 +193,7 @@ Sustainability:
         shelter, 
         defence, 
         nature, 
-        climate change
+        climate change, 
+        climaate
     ]
 

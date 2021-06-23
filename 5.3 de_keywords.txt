@@ -56,13 +56,44 @@ outfit = [
 
 Billing and payment:
 bill_pay = [
-    rechnung
+    rechnung, 
+    zahlung,
+    ausgleich, 
+    schlussrechnung, 
+    kassenbeleg, 
+    quittung, 
+    kassenbon,
+    quittung, 
+    budget,
+    voranschlag, 
+    belastung, 
+    abrechnung, 
+    aufstellung, 
+    summe,
+    betrag, 
+    abgabe, 
+    auszahlung, 
+    gebühr, 
+    vorkasse
  ]
 
 Fulfillment (logistics):
 fulfilment= [
+    einhaltung, 
+    erfüllung, 
+    beachtung
 
 
 ]
 
 Sustainability:
+    sustainability = [
+        nachhaltigkeit, 
+        umwelt, 
+        umgebung, 
+        natur, 
+        naturschutz, 
+        klima, 
+        klimawandel,
+        nachhaltig
+    ]
