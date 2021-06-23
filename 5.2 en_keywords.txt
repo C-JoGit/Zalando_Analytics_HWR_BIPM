@@ -1,6 +1,45 @@
 Catalog:
+    catalog= [
+        list,
+        record,
+        schedule,
+        index,
+        register,
+        directory,
+        inventory
+    ]
 
 Size & fit:
+size_fit = [
+    dimensions,
+    extent,
+    measurement,
+    range,
+    amount,
+    mass,
+    length,
+    volume,
+    capacity,
+    proportions,
+    bulk,
+    width,
+    magnitude,
+    vastness,
+    immensity,
+    bigness,
+    largeness,
+    hugeness, 
+    adapt,
+    fashion,
+    shape,
+    arrange,
+    alter,
+    tailor,
+    adjust,
+    modify,
+    tweak,
+    customize,
+]
 
 Product detail page:
 
@@ -90,5 +129,22 @@ bill_pay = [charges,
     note]
 
 Fulfillment (logistics):
+fulfilment= [
+    achievement,
+    effecting,
+    implementation,
+    carrying out or through,
+    end,
+    crowning,
+    discharge,
+    discharging,
+    completion,
+    perfection,
+    accomplishment,
+    realization,
+    attainment,
+    observance,
+    consummation
+]
 
 Sustainability:
