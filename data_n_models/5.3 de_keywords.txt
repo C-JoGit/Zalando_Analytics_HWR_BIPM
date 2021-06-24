@@ -56,6 +56,8 @@ outfit = [
 
 Billing and payment:
 bill_pay = [
+    packstation, 
+    mahnung, 
     rechnung, 
     zahlung,
     ausgleich, 
@@ -74,11 +76,15 @@ bill_pay = [
     abgabe, 
     auszahlung, 
     gebühr, 
-    vorkasse
+    vorkasse, 
+    kreditkarte, 
+    debit, 
+    schulden
  ]
 
 Fulfillment (logistics):
 fulfilment= [
+    packstation,
     transport, 
     lager, 
     lagerung,
@@ -87,7 +93,8 @@ fulfilment= [
     logistik, 
     einhaltung, 
     erfüllung, 
-    beachtung
+    beachtung, 
+    warten
 
 
 ]
